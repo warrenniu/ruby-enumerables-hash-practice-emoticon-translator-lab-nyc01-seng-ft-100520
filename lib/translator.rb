@@ -7,7 +7,7 @@ def load_library(cats)
   # code goes here
 emoticons = YAML.load_file(cats)
 
-emoticons
+return {}
 
 emoticons.each do |key, value|
   value.each do |inner_value|
