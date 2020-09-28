@@ -24,13 +24,14 @@ def get_japanese_emoticon(emoticons, english_emoji)
     hash.each do |key, value|
 
 #       if value[:english] == english_emoji
-#         # value.each do |inner_key, inner_value|
-#         return value[:japanese]
-#       end
-# 
-#     end
-#     return "Sorry, that emoticon was not found"
-# end
+        value.each do |inner_key, inner_value|
+          if inner_value == english_emoji
+        return value[:japanese]
+      end
+     end
+    end
+    return "Sorry, that emoticon was not found"
+end
 #
 # def get_english_meaning
 #   # code goes here
