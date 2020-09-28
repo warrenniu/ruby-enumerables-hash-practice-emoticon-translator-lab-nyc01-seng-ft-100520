@@ -19,9 +19,9 @@ end
 
 def get_japanese_emoticon(emoticons, value)
   # code goes here
-  load_library(emoticons)
+  hash = load_library(emoticons)
 
-    load_library(emoticons).each do |key, value|
+    hash.each do |key, value|
       binding.pry
         # value.each do |inner_key, inner_value|
         #
