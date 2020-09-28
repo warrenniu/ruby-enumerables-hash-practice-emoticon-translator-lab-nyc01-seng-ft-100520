@@ -32,6 +32,7 @@ def get_japanese_emoticon(emoticons, english_emoji)
 end
 #
 def get_english_meaning(emoticons, english_emoji)
+  binding.pry
   # code goes here
 
 end
