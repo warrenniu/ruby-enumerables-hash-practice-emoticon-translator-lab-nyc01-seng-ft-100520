@@ -17,19 +17,18 @@ empty_hash = {}
 empty_hash
 end
 
-def get_japanese_emoticon(emoticons, value)
+def get_japanese_emoticon(emoticons, english_emoji)
   # code goes here
   hash = load_library(emoticons)
 
     hash.each do |key, value|
-      binding.pry
+      if value[:english] == english_emoji
         # value.each do |inner_key, inner_value|
-        #
-        #     return inner_value
-          # binding.pry
+        return value[:japanese]
+      end
 
-      # end
     end
+    return "Sorry, that emoticon was not found"
 end
 #
 # def get_english_meaning
