@@ -40,5 +40,5 @@ def get_english_meaning(emoticons, japanese_emoji)
     return key
     end
   end
-  
+  return "Sorry, that emoticon was not found"
 end
