@@ -25,7 +25,7 @@ def get_japanese_emoticon(emoticons, value)
         value.each do |inner_key, inner_value|
           binding.pry
 
-end
+      end
     end
 end
 #
