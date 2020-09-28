@@ -12,6 +12,7 @@ emoticons
 emoticons.each do |key, value|
 # emoticons.each_with_object({}) do |(key, value), final_array|
   value.each do |inner_value|
+    
 
   binding.pry
   end
