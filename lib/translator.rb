@@ -32,7 +32,7 @@ def get_japanese_emoticon(emoticons, english_emoji)
 end
 #
 def get_english_meaning(emoticons, japanese_emoji)
-  binding.pry
   # code goes here
+  hash = load_library(emoticons)
 
 end
