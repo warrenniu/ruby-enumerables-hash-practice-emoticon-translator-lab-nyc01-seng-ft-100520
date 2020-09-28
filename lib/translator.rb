@@ -24,7 +24,7 @@ def get_japanese_emoticon(emoticons, value)
   empty_hash = {}
       load_library(emoticons).each do |key, value|
         empty_hash[key] = {}
-
+          empty_hash[key][:english] = 
       binding.pry
     end
 end
