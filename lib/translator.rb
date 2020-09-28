@@ -7,10 +7,10 @@ def load_library(cats)
   # code goes here
 emoticons = YAML.load_file(cats)
 
-# emoticons
+emoticons
 
 emoticons.each_with_object({}) do |(key, value), final_array|
-  value.each do |inner_key, inner_value|
+  # value.each do |inner_key, inner_value|
 
   binding.pry
   end
