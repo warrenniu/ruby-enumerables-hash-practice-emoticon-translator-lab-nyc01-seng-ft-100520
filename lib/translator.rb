@@ -18,7 +18,7 @@ empty_hash
 end
 
 def get_japanese_emoticon(emoticons, value)
-  binding.pry
+  
   # code goes here
 
 end
