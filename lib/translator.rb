@@ -7,14 +7,13 @@ def load_library(cats)
   # code goes here
 emoticons = YAML.load_file(cats)
 
-return {}
+empty_hash = {}
 
 emoticons.each do |key, value|
-  value.each do |inner_value|
-    value[inner_value] = {}
 
   binding.pry
   end
+  empty_hash
 end
 
 # def get_japanese_emoticon
