@@ -12,7 +12,7 @@ emoticons
 
 file.each do |key, value|
   binding.pry
-end
+  end
 end
 
 # def get_japanese_emoticon
