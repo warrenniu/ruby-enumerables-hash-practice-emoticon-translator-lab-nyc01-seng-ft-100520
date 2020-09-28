@@ -36,7 +36,7 @@ def get_english_meaning(emoticons, japanese_emoji)
   hash = load_library(emoticons)
 
   hash.each do |key, value|
-  binding.pry
+  
 
   end
 end
