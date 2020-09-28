@@ -34,6 +34,6 @@ end
 def get_english_meaning(emoticons, japanese_emoji)
   # code goes here
   hash = load_library(emoticons)
-  binding.pry
+  
 
 end
