@@ -13,7 +13,7 @@ empty_hash = {}
     empty_hash[key] = {}
       empty_hash[key][:english] = value[0]
       empty_hash[key][:japanese] = value[1]
-    binding.pry
+    # binding.pry
     end
 empty_hash
 end
