@@ -9,6 +9,8 @@ emoticons = YAML.load_file(file)
 # binding.pry
 
 emoticons
+
+
 end
 
 # def get_japanese_emoticon
