@@ -22,13 +22,13 @@ def get_japanese_emoticon(emoticons, value)
   load_library(emoticons)
 
     load_library(emoticons).each do |key, value|
-      # binding.pry
-        value.each do |inner_key, inner_value|
-
-            return inner_value
+      binding.pry
+        # value.each do |inner_key, inner_value|
+        #
+        #     return inner_value
           # binding.pry
 
-      end
+      # end
     end
 end
 #
