@@ -3,9 +3,9 @@ require "pry"
 require "yaml"
 
 
-def load_library(cats)
+def load_library(file)
   # code goes here
-emoticons = YAML.load_file(cats)
+emoticons = YAML.load_file(file)
 # binding.pry
 
 emoticons
