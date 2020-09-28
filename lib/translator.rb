@@ -23,10 +23,11 @@ def get_japanese_emoticon(emoticons, value)
 
   empty_hash = {}
       load_library(emoticons).each do |key, value|
+        if 
         # empty_hash[key] = {}
         #   empty_hash[key][:english].each do |value|
       binding.pry
-      
+
     end
 end
 #
