@@ -10,7 +10,7 @@ emoticons = YAML.load_file(cats)
 
 emoticons
 
-file.each do |key, value|
+cats.each do |key, value|
   binding.pry
   end
 end
