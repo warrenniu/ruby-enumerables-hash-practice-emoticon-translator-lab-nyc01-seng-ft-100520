@@ -11,7 +11,7 @@ empty_hash = {}
 
   emoticons.each do |key, value|
     empty_hash[key] = {}
-      
+      value.each do |inner_value|
     binding.pry
     end
 empty_hash
