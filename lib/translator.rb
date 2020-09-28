@@ -12,7 +12,7 @@ empty_hash = {}
 emoticons.each do |key, value|
 
   end
-  empty_hash
+empty_hash
 end
 
 # def get_japanese_emoticon
