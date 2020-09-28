@@ -20,6 +20,8 @@ end
 def get_japanese_emoticon(emoticons, value)
   # code goes here
   load_library(emoticons)
+
+  empty_hash = {}
     # emoticons.each do |key, value|
       # if emoticons[key] == [value]
       # return value
