@@ -23,6 +23,8 @@ def get_japanese_emoticon(emoticons, value)
 
     load_library(emoticons).each do |key, value|
         value.each do |inner_key, inner_value|
+          if [inner_key][inner_value] !== nil
+            return inner_value
           binding.pry
 
       end
