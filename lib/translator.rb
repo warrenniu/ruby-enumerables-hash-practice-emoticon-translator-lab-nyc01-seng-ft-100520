@@ -17,9 +17,9 @@ empty_hash = {}
 empty_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emoticons, value)
   # code goes here
-  
+
 end
 #
 # def get_english_meaning
