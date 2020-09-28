@@ -11,7 +11,7 @@ emoticons
 
 emoticons.each do |key, value|
   value.each do |inner_value|
-    value[inner_value]
+    value[inner_value] = {}
 
   binding.pry
   end
