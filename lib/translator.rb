@@ -9,7 +9,7 @@ emoticons = YAML.load_file(cats)
 
 # emoticons
 
-emoticons.each do |emotes, language|
+emoticons.each_with_object({}) do |(key, value), final_array|
   if emoticons[emotes] = {}
 
   binding.pry
