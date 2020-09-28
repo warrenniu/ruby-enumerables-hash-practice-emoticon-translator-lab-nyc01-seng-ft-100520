@@ -7,10 +7,10 @@ def load_library(cats)
   # code goes here
 emoticons = YAML.load_file(cats)
 
-emoticons
+# emoticons
 
-emoticons.each do |emotes|
-  emoticons[emotes] = {}
+emoticons.each do |emotes, language|
+  if emoticons[emotes] = {}
 
   binding.pry
   end
