@@ -26,7 +26,7 @@ def get_japanese_emoticon(emoticons, value)
         empty_hash[key] = {}
 
       binding.pry
-
+    end
 end
 #
 # def get_english_meaning
