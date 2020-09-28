@@ -20,7 +20,8 @@ end
 def get_japanese_emoticon(emoticons, value)
   # code goes here
   load_library(emoticons)
-    if emoticons[key] == [value]
+    emoticons.each do |value|
+      if emoticons[key] == [value]
       return value
       binding.pry
 
