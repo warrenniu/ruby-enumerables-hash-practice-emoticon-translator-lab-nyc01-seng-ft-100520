@@ -31,7 +31,7 @@ def get_japanese_emoticon(emoticons, english_emoji)
     return "Sorry, that emoticon was not found"
 end
 #
-def get_english_meaning(emoticons, english_emoji)
+def get_english_meaning(emoticons, japanese_emoji)
   binding.pry
   # code goes here
 
