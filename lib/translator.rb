@@ -38,5 +38,5 @@ def get_english_meaning(emoticons, japanese_emoji)
   hash.each do |key, value|
   binding.pry
 
-
+  end
 end
